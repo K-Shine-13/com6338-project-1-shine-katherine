@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Recipe Surfer</h1>
+        <h2>Discover recipes based on cuisine, meal type, and complexity.</h2>
+    </header>
+
+    <div class="search-controls">
+
+        <select id="cuisineSelect">
+            <option value="">Select Cuisine</option>
+            <option value="italian">Italian</option>
+            <option value="mexican">Mexican</option>
+            <option value="japanese">Japanese</option>
+            <option value="chinese">Chinese</option>
+            <option value="mediterranean">Mediterranean</option>
+        </select>
+
+        <select id="mealTypeSelect">
+            <option value="">Meal Type</option>
+            <option value="breakfast">Breakfast</option>
+            <option value="lunch">Lunch</option>
+            <option value="dinner">Dinner</option>
+            <option value="dessert">Dessert</option>
+        </select>
+
+        <select id="complexitySelect">
+            <option value="">Complexity</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="complex">Complex</option>
+        </select>
+
+        <button id="searchBtn">Search Recipes</button>
+
+    </div>
+
+    <div id="recipeGrid"></div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
