@@ -2,9 +2,13 @@
 # Project 1 - Create a Web Application Using ES6 and New JavaScript Features
 
 ## Project Purpose:
-    This application is intended to allow the user to search for recipes based on criteria such as cuisine type, meal category, and preparation complexity. Recipe results are retrieved from the Spoonacular API and displayed as dynamic recipe cards containing images, preparation time, and cooking instructions.
+    This application is intended to allow the user to search for recipes based on criteria such as cuisine type,
+     meal category, and preparation complexity. Recipe results are retrieved from the Spoonacular API and displayed
+     as dynamic recipe cards containing images, preparation time, and cooking instructions.
     
-    In addition to displaying search results, here is also a favorites system included that allows users to save preferred recipes that they see. These favorites are stored using the browser's localStorage, and can be removed at the user's liesure with the click of a button.
+    In addition to displaying search results, here is also a favorites system included that allows users to save 
+    preferred recipes that they see. These favorites are stored using the browser's localStorage, and can be removed 
+    at the user's liesure with the click of a button.
 
 ## Where ES6 features were implemented in this application:
 ### - Async / Await
